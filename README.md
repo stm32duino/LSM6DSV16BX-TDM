@@ -1,0 +1,2 @@
+# LSM6DSV16BX-TDM
+TDM library for LSM6DSV16BX
