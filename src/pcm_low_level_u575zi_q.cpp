@@ -118,7 +118,7 @@ void pcm_low_level_copy_half_cplt(int16_t *pBuf)
 }
 
 /**
- *  @brief Complet Callback
+ *  @brief Complete Callback
  *  @param pBuf: pointer to a buffer to store data
  *  @retval None
  */
@@ -156,7 +156,7 @@ void SystemClock_Config(void)
   */
   HAL_PWR_EnableBkUpAccess();
   __HAL_RCC_LSEDRIVE_CONFIG(RCC_LSEDRIVE_LOW);
-  /** Initializes the CPU, AHB and APB busses clocks
+  /** Initializes the CPU, AHB and APB buses clocks
   */
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI48 | RCC_OSCILLATORTYPE_HSI
                                      | RCC_OSCILLATORTYPE_LSE | RCC_OSCILLATORTYPE_MSI;
