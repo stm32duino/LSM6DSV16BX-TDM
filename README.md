@@ -43,13 +43,13 @@ You need to connect the STEVAL-MKI237KA eval board directly to the NUCLEO-U575ZI
  - pin 20 (SCL) of the STEVAL-MKI237KA eval board connected to pin D15 SCL of the NUCLEO-U575ZI-Q board
  - pin 21 (SDA) of the STEVAL-MKI237KA eval board connected to pin D14 SDA of the NUCLEO-U575ZI-Q board
 
-# Dependencies
+## Dependencies
 
 The LSM6DSV16BX-TDM library requires the following STM32duino library:
 
 * STM32duino LSM6DSV16BX: https://github.com/stm32duino/LSM6DSV16BX
 
-# Documentation
+## Documentation
 
 You can find the source files at
 https://github.com/stm32duino/LSM6DSV16BX-TDM
